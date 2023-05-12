@@ -109,6 +109,32 @@ def rotate(cube):
     cube.faces['D'][5] = cube.faces['D'][7]
     cube.faces['D'][7] = cube.faces['D'][3]
     cube.faces['D'][3] = aux
+    
+    aux = cube.faces['R'][0]
+    cube.faces['R'][0] = cube.faces['R'][8]
+    cube.faces['R'][8] = aux
+    aux = cube.faces['R'][2]
+    cube.faces['R'][2] = cube.faces['R'][6]
+    cube.faces['R'][6] = aux
+    aux = cube.faces['R'][1]
+    cube.faces['R'][1] = cube.faces['R'][7]
+    cube.faces['R'][7] = aux
+    aux = cube.faces['R'][3]
+    cube.faces['R'][3] = cube.faces['R'][5]
+    cube.faces['R'][5] = aux
+    
+    aux = cube.faces['B'][0]
+    cube.faces['B'][0] = cube.faces['B'][8]
+    cube.faces['B'][8] = aux
+    aux = cube.faces['B'][2]
+    cube.faces['B'][2] = cube.faces['B'][6]
+    cube.faces['B'][6] = aux
+    aux = cube.faces['B'][1]
+    cube.faces['B'][1] = cube.faces['B'][7]
+    cube.faces['B'][7] = aux
+    aux = cube.faces['B'][3]
+    cube.faces['B'][3] = cube.faces['B'][5]
+    cube.faces['B'][5] = aux
 
 def rotate_(cube):
     aux = cube.faces['F']
@@ -138,6 +164,32 @@ def rotate_(cube):
     cube.faces['D'][3] = cube.faces['D'][7]
     cube.faces['D'][7] = cube.faces['D'][5]
     cube.faces['D'][5] = aux
+    
+    aux = cube.faces['L'][0]
+    cube.faces['L'][0] = cube.faces['L'][8]
+    cube.faces['L'][8] = aux
+    aux = cube.faces['L'][2]
+    cube.faces['L'][2] = cube.faces['L'][6]
+    cube.faces['L'][6] = aux
+    aux = cube.faces['L'][1]
+    cube.faces['L'][1] = cube.faces['L'][7]
+    cube.faces['L'][7] = aux
+    aux = cube.faces['L'][3]
+    cube.faces['L'][3] = cube.faces['L'][5]
+    cube.faces['L'][5] = aux
+    
+    aux = cube.faces['B'][0]
+    cube.faces['B'][0] = cube.faces['B'][8]
+    cube.faces['B'][8] = aux
+    aux = cube.faces['B'][2]
+    cube.faces['B'][2] = cube.faces['B'][6]
+    cube.faces['B'][6] = aux
+    aux = cube.faces['B'][1]
+    cube.faces['B'][1] = cube.faces['B'][7]
+    cube.faces['B'][7] = aux
+    aux = cube.faces['B'][3]
+    cube.faces['B'][3] = cube.faces['B'][5]
+    cube.faces['B'][5] = aux
     
     
 cube = Cube()

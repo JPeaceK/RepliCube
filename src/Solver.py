@@ -191,19 +191,45 @@ def rotate_(cube):
     cube.faces['B'][3] = cube.faces['B'][5]
     cube.faces['B'][5] = aux
     
+
+def move(cube):
+    aux = cube.faces['F'][6]
+    cube.faces['F'][6] = cube.faces['R'][6]
+    cube.faces['R'][6] = cube.faces['B'][2]
+    cube.faces['B'][2] = cube.faces['L'][6]
+    cube.faces['L'][6] = aux
     
+    aux = cube.faces['F'][7]
+    cube.faces['F'][7] = cube.faces['R'][7]
+    cube.faces['R'][7] = cube.faces['B'][1]
+    cube.faces['B'][1] = cube.faces['L'][7]
+    cube.faces['L'][7] = aux
+    
+    aux = cube.faces['F'][8]
+    cube.faces['F'][8] = cube.faces['R'][8]
+    cube.faces['R'][8] = cube.faces['B'][0]
+    cube.faces['B'][0] = cube.faces['L'][8]
+    cube.faces['L'][8] = aux
+    
+
+
 cube = Cube()
 setColors(cube)
 printCube(cube)
-push(cube)
-print("**************************************")
+#push(cube)
+#print("PUSH**************************************")
+#printCube(cube)
+#rotate(cube)
+#print("ROTATE**************************************")
+#printCube(cube)
+#rotate_(cube)
+#print("ROTATE_**************************************")
+#printCube(cube)
+move(cube)
+print("move**************************************")
 printCube(cube)
-rotate(cube)
-print("**************************************")
-printCube(cube)
-rotate_(cube)
-print("**************************************")
-printCube(cube)
+
+
 
 
 #TODO: Hay un bug en el rotate, la cara B no es directamente la anterior L

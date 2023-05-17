@@ -1,0 +1,8 @@
+#Conectarnos ssh a raspberry pi zero V1.1
+ssh pi2@192.168.149.28 #Si no sabemos la ip de la raspberry, hacemos arp -a
+
+#Para hacer fotos (desde ssh)
+raspistill -o Images/prueba.jpg
+
+#Para descargar la foto (desde cmd de windows)
+scp pi2@192.168.149.28:Images/prueba.jpg W:\Escritorio\RepliCube\Images

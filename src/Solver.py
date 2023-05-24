@@ -211,25 +211,81 @@ def move(cube):
     cube.faces['B'][0] = cube.faces['L'][8]
     cube.faces['L'][8] = aux
     
+    aux = cube.faces['D'][0]
+    cube.faces['D'][0] = cube.faces['D'][2]
+    cube.faces['D'][2] = cube.faces['D'][8]
+    cube.faces['D'][8] = cube.faces['D'][6]
+    cube.faces['D'][6] = aux
+    
+    aux = cube.faces['D'][1]
+    cube.faces['D'][1] = cube.faces['D'][5]
+    cube.faces['D'][5] = cube.faces['D'][7]
+    cube.faces['D'][7] =cube.faces['D'][3]
+    cube.faces['D'][3] = aux
 
 
+def move_(cube):
+    aux = cube.faces['F'][6]
+    cube.faces['F'][6] = cube.faces['L'][6]
+    cube.faces['L'][6] = cube.faces['B'][2]
+    cube.faces['B'][2] = cube.faces['R'][6]
+    cube.faces['R'][6] = aux
+    
+    aux = cube.faces['F'][7]
+    cube.faces['F'][7] = cube.faces['L'][7]
+    cube.faces['L'][7] = cube.faces['B'][1]
+    cube.faces['B'][1] = cube.faces['R'][7]
+    cube.faces['R'][7] = aux
+    
+    aux = cube.faces['F'][8]
+    cube.faces['F'][8] = cube.faces['L'][8]
+    cube.faces['L'][8] = cube.faces['B'][0]
+    cube.faces['B'][0] = cube.faces['R'][8]
+    cube.faces['R'][8] = aux
+    
+    aux = cube.faces['D'][0]
+    cube.faces['D'][0] = cube.faces['D'][6]
+    cube.faces['D'][6] = cube.faces['D'][8]
+    cube.faces['D'][8] = cube.faces['D'][2]
+    cube.faces['D'][2] = aux
+    
+    aux = cube.faces['D'][1]
+    cube.faces['D'][1] = cube.faces['D'][3]
+    cube.faces['D'][3] = cube.faces['D'][7]
+    cube.faces['D'][7] = cube.faces['D'][5]
+    cube.faces['D'][5] = aux
+    
+    
+    
+    
 cube = Cube()
 setColors(cube)
+print("Estado normal:")
 printCube(cube)
-#push(cube)
-#print("PUSH**************************************")
-#printCube(cube)
-#rotate(cube)
-#print("ROTATE**************************************")
-#printCube(cube)
-#rotate_(cube)
-#print("ROTATE_**************************************")
-#printCube(cube)
+print("**************************************")
+print("push")
+push(cube)
+printCube(cube)
+print("**************************************")
+print("rotate")
+rotate(cube)
+printCube(cube)
+print("**************************************")
+print("rotate_")
+rotate_(cube)
+printCube(cube)
+print("**************************************")
+print("move")
 move(cube)
-print("move**************************************")
 printCube(cube)
+print("**************************************")
+print("move_")
+move_(cube)
+printCube(cube)
+print("**************************************")
 
 
 
+#Para el escaneo, el cubo hará -> SCAN, PUSH, SCAN, PUSH, SCAN, PUSH, SCAN, PUSH, ROTATE, PUSH, SCAN, PUSH, PUSH, ROTATE_, ROTATE_, SCAN, PUSH, PUSH, PUSH, ROTATE
 
-#TODO: Hay un bug en el rotate, la cara B no es directamente la anterior L
+

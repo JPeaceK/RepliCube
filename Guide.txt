@@ -1,7 +1,16 @@
 #Conectarnos ssh a raspberry pi zero V1.1
 ssh pi2@192.168.149.28 #Si no sabemos la ip de la raspberry, hacemos arp -a
 #Nos podemos conectar también con pi2@pi2
-@Cotraseña: 1234
+@Cotraseña: 1234 o 12345
+
+#Configurar la camera
+sudo raspi-config
+Seleccionar Interfacing Options
+selecciona "Camera" (Cámara) y presiona Enter.
+Selecciona "Yes" (Sí) y presiona Enter.
+Finish
+Sudo reboot
+
 
 #Para hacer fotos (desde ssh)
 raspistill -o Images/prueba.jpg

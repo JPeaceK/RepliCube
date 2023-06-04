@@ -17,3 +17,5 @@ raspistill -o Images/prueba.jpg
 
 #Para descargar la foto (desde cmd de windows)
 scp pi2@192.168.149.28:Images/prueba.jpg W:\Escritorio\RepliCube\Images
+#También funciona el siguiente, en caso de tenerlo ya configurado
+scp pi2@pi2:Images/prueba.jpg W:\Escritorio\RepliCube\Images

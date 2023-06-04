@@ -11,6 +11,8 @@ Selecciona "Yes" (Sí) y presiona Enter.
 Finish
 Sudo reboot
 
+#Para saber la IP de la raspby una vez ya estás dentro para decir cómo conectar a alguien que no tiene la ip:
+hostname -I
 
 #Para hacer fotos (desde ssh)
 raspistill -o Images/prueba.jpg

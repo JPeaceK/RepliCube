@@ -5,7 +5,6 @@
    * [Our main goal](#our-main-goal)
    * [Requirements](#requirements)
    * [Documentation](#documentation)
-   * [How to use](#how-to-use)
    * [Hardware Structure](hardware-structure)
    * [Software Architecture](software-architecture)
    * [Images](#images)
@@ -43,8 +42,6 @@ All the documentation that might be useful, like servo motors guides, Hardware S
 You can also see the references of the [Hardware Structure](hardware-structure) and the [Software Architecture](software-architecture) in this README.md file.
 
 It is also provided a report that contains all development procedures named "Replicube Report".
-
-# How to use
 
 # Hardware Structure
 ![Hardware Structure](https://github.com/JPeaceK/RepliCube/blob/main/Hardware/Hardware.jpg)

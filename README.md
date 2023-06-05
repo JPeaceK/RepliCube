@@ -49,7 +49,10 @@ It is also provided a report that contains all development procedures named "Rep
 ![Hardware Structure](https://github.com/JPeaceK/RepliCube/blob/main/Hardware/Hardware.jpg)
 
 # Software Architecture
-
+The software Architecture is the following:
+![Software Structure](https://github.com/JPeaceK/RepliCube/blob/main/Software/SW_ARCHITECTURE.drawio.png)
+And here a Flux Diagram of the code:
+![Flux](https://github.com/JPeaceK/RepliCube/blob/main/Software/Flujo.drawio.png)
 # Images
 You can find a folder named "Images" where all the test images we have used to evaluate our core Computer Vision functionalities are featured. These images have been captured by a Raspberry Pi Camera Module directly connected to the Raspberry Pi 4 Model B.
 

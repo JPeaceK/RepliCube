@@ -1,3 +1,4 @@
+
 ![Replicube](https://github.com/JPeaceK/RepliCube/blob/main/RepliCube_Photo.jpg)
 # Table of Contents
    * [What is this?](#what-is-this)
@@ -9,6 +10,7 @@
    * [Software Architecture](software-architecture)
    * [Images](#images)
    * [3D](#3d)
+   * [Video](#video)
    * [Special thanks](#special-thanks)
    * [Authors](#authors)
    
@@ -76,6 +78,9 @@ We want to thank our 3 professors from the subject:
  - Vernon Stanley Albayeros Duarte
 
 Thanks to their support, this project has been able tu surpass all it's ups and downs and successfully come to fruition. We are grateful for the invaluable support and guidance provided by our professors throughout this project. Their expertise and encouragement have been instrumental in helping us navigate the challenges we encountered along the way. During critical moments, they offered their expertise and insights, enabling us to find effective solutions.
+
+# Video
+https://youtu.be/xmQAyfgD7hg
 
 # Authors
 - Joel Paz Cepero

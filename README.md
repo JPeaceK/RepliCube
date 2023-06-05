@@ -1,3 +1,4 @@
+![Replicube](https://github.com/JPeaceK/RepliCube/blob/main/RepliCube_Photo.jpg)
 # Table of Contents
    * [What is this?](#what-is-this)
    * [Our main goal](#our-main-goal)

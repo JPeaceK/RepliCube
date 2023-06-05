@@ -4,6 +4,8 @@ from scanManual import *
 import copy
 import time
 from scanner import *
+import cv2
+
 
 class Cube:
     def __init__(self):
@@ -93,7 +95,7 @@ while(not exit):
                 exit2 = True
                 cube = Cube()
                 scannerMain()
-                images = ['images\CuboU0.jpg', 'images\CuboU1.jpg', 'images\CuboU2.jpg', 'images\CuboU3.jpg','images\CuboU4.jpg','images\CuboU5.jpg']
+                images = ['CuboU0.jpg', 'CuboU1.jpg', 'CuboU2.jpg', 'CuboU3.jpg','CuboU4.jpg','CuboU5.jpg']
                 setColors2(cube, images)
 
                 print("Start solving in...")
@@ -136,7 +138,7 @@ while(not exit):
                 exit2 = True
                 cube = Cube()
                 scannerMain()
-                images = ['images\CuboU0.jpg', 'images\CuboU1.jpg', 'images\CuboU2.jpg', 'images\CuboU3.jpg','images\CuboU4.jpg','images\CuboU5.jpg']
+                images = ['CuboU0.jpg', 'CuboU1.jpg', 'CuboU2.jpg', 'CuboU3.jpg','CuboU4.jpg','CuboU5.jpg']
                 setColors2(cube, images)
                 
                 print("Put the second cube inside the box")

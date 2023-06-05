@@ -64,7 +64,7 @@ We want to thank our 3 professors from the subject:
 Thanks to their support, this project has been able tu surpass all it's ups and downs and successfully come to fruition. We are grateful for the invaluable support and guidance provided by our professors throughout this project. Their expertise and encouragement have been instrumental in helping us navigate the challenges we encountered along the way. During critical moments, they offered their expertise and insights, enabling us to find effective solutions.
 
 # Authors
-Joel Paz Cepero
-Gabriel Bardají Biescas
-Pau Carracelas Expósito
-Víctor Valero Carrasco
+- Joel Paz Cepero
+- Gabriel Bardají Biescas
+- Pau Carracelas Expósito
+- Víctor Valero Carrasco

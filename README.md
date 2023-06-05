@@ -1,10 +1,11 @@
 
-
 # Table of Contents
    * [What is this?](#what-is-this)
    * [Our main goal](#our-main-goal)
    * [Requirements](#requirements)
    * [Documentation](#documentation)
+   * [How to use](#how-to-use)
+   * [Hardware Structure](hardware-structure)
    * [Images](#images)
    * [3D](#3d)
    * [Solver](#solver)
@@ -37,9 +38,15 @@ All the documentation that might be useful, like servo motors guides, Hardware S
  - [Software]()
  - [Manual de Fabricantes](https://github.com/JPeaceK/RepliCube/tree/main/Manuales%20de%20Fabricantes)
 
+You can also see the references of the [Hardware Structure](hardware-structure) and the [Software Architecture](software-architecture) in this README.md file.
+
 It is also provided a report that contains all development procedures named "Replicube Report".
 
 # How to use
+
+# Hardware Structure
+![Hardware Structure](https://github.com/JPeaceK/RepliCube/blob/main/Hardware/Hardware.jpg)
+
 
 # Images
 You can find a folder named "Images" where all the test images we have used to evaluate our core Computer Vision functionalities are featured. These images have been captured by a Raspberry Pi Camera Module directly connected to the Raspberry Pi 4 Model B.

@@ -51,6 +51,7 @@ It is also provided a report that contains all development procedures named "Rep
 # Software Architecture
 The software Architecture is the following:
 ![Software Structure](https://github.com/JPeaceK/RepliCube/blob/main/Software/SW_ARCHITECTURE.drawio.png)
+
 And here a Flux Diagram of the code:
 ![Flux](https://github.com/JPeaceK/RepliCube/blob/main/Software/Flujo.drawio.png)
 # Images

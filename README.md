@@ -9,7 +9,6 @@
    * [Software Architecture](software-architecture)
    * [Images](#images)
    * [3D](#3d)
-   * [Solver](#solver)
    * [Special thanks](#special-thanks)
    * [Authors](#authors)
    
@@ -67,8 +66,6 @@ You will also find a folder named "3D" where you can locate all our .stl files t
 
 
 Ref: (https://github.com/JPeaceK/RepliCube/tree/main/3D)
-
-# Solver
 
 
 # Special thanks
